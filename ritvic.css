@@ -3,6 +3,9 @@
    
 } 
  html{
+    background: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-41740.jpg?w=740&t=st=1706464799~exp=1706465399~hmac=2283d492c8498dcc9d3b90c89105143eb53ab53a568bd1220ae3b6695aefa276);
+    background-repeat: repeat;
+    background-size: cover;
     overflow: auto;
     height: 100%;
     width: 100%;

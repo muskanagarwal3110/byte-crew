@@ -2,9 +2,16 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-41740.jpg?w=740&t=st=1706464799~exp=1706465399~hmac=2283d492c8498dcc9d3b90c89105143eb53ab53a568bd1220ae3b6695aefa276);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Saraburn',sans-serif;
+}
 .logo img{
     height: 100px;
     width: 100px;
+    
 }
 .superclass img{
     height: 200px;width: 200px;
@@ -14,12 +21,7 @@
     box-shadow: black;
    box-shadow: 0px 0px 15px 2px black;
 }
-.navbar{
-    box-shadow: 0 10px 10px rgb(237, 179, 159);
-}*{
-    margin:0%;
-   
-} 
+
 
  html{
     overflow: auto;
@@ -49,6 +51,9 @@
     font-size: 30px;
     color: black;
    
+}
+a{
+    text-decoration: none;
 }
 .mav{
     padding-left: 50px;
@@ -80,7 +85,8 @@
 }
 .s{
     padding-top: 10px;
-    padding-left: 645px;
+    text-align: center;
+    /* padding-left: 645px; */
     font-size: 45px;
 }
 h2{
@@ -104,12 +110,7 @@ h2{
     padding-top: 30px;
     padding-left: 10px;
 }
-body{
-    background: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-41740.jpg?w=740&t=st=1706464799~exp=1706465399~hmac=2283d492c8498dcc9d3b90c89105143eb53ab53a568bd1220ae3b6695aefa276);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Saraburn',sans-serif;
-}
+
 .superclass2 h4{
     padding-left: 56px;
     padding-top: 20px;
