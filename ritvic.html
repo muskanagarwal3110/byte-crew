@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ritvic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="Home">
+        <header id="header">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIpQHsm4zPwIcxOUiU9-_oifNUizIgBrjN9w&usqp=CAU">
+            <h1>National Institute of Technology, Rourkela</h1>
+            <button onclick="toggleElement()"><i class="fa-solid fa-bullhorn"></i> 
+               </button>
+              
+        </header>
+    </div>
+    <div id="elementToToggle" style="display: none;">
+        <select id="sort" name="sort-list" placeholder="Sort-By">
+            <option value="Newest">Newest</option>
+            <option value="Oldest">Oldest</option>
+          </select>
+          <h1><i>Cosmo 2024</i></h1><hr>
+          <h1><i>Innovision 2023</i></h1><hr>
+          <h1><i>INDUCTIONS for batch 23-27</i></h1><hr>
+          <h1><i>LA lawns performance</i></h1><hr>
+          <h1><i>Freshers 23-27 performance</i></h1><hr>
+          <h1><i>Nitrutsav 2023</i></h1><hr>
+        <h1><i>Cosmo 2023</i></h1><hr>
+      </div>
+    <div class="head">
+        <img id="ritvic_logo"
+            src="https://media.licdn.com/dms/image/C4D0BAQGU6jqEt9ogXw/company-logo_200_200/0/1676122155704/ritvic_nit_rourkela_logo?e=1714608000&v=beta&t=82a3LI4Hkk6zWQryl8i7XFVUcCrm9510I1gjGGytNeE">
+        <h2>RITVIC <br> (Rejuvenating Indian Thinking By Verbal Interactive Communication)</h2>
+        <h3>The Official Cultural Club of NIT Rourkela</h3>
+        <h3><span id="hash">#</span>DilSeRitvic</h3>
+
+    </div>
+    <div class="about">
+        <h1 id="abt">About Us</h1>
+        <p>RITVIC, the official ciltural club of NITR, was founded in 2015 and began as a small group performing skits
+            on the streets of our college. The club grew as years passed by and have performed for most of the eminent
+            events in the form of street play, both inside and outside of the college. It <br>continues to be one of the
+            most active clubs of NITR.</p>
+    </div>
+    <div class="mission">
+        <h1 id="mis"> Mission</h1>
+        <li>To highlight the social evils in the most vivid way for the people via stage plays, street plays and improvs
+        </li>
+        <li>To reach out to the crowd conveying and potraying the deep aspects of society</li>
+        <li>To promote the culture of acting through street and stage play</li>
+        <li>To build self confidence in club members so that they can express themselves clearly when spealing in public
+        </li>
+        <li>To improve writing skills in Hindi so that we can reach out to the public, effectively and spread awareness
+        </li>
+        <li>To work towards a healthy well being of the club members by performing various physical activities like
+            jogging, stretching and vocal exercises.</li>
+    </div>
+
+
+    <div id="slider-container">
+        <div id="image-slider">
+          <img src="https://media.licdn.com/dms/image/C4D22AQE6FRsJ1bJhGg/feedshare-shrink_2048_1536/0/1676125956723?e=1709164800&v=beta&t=c2wNUvT2AUf70f576a7Czdj3R2rXomU5F0_g8iv1av8" alt="Image 1" class="slide" >
+          <img src="https://media.licdn.com/dms/image/C4D22AQEfJuww2tkA1g/feedshare-shrink_2048_1536/0/1676125956515?e=1709164800&v=beta&t=NAgtkRPz_w-6xSbJSNNyzA_V8RRjmhAVas_r9ptG-NY" alt="Image 2" class="slide">
+          <img src="https://media.licdn.com/dms/image/C4D22AQFpH8rPXBNuWg/feedshare-shrink_2048_1536/0/1676125957333?e=1709164800&v=beta&t=2DpMSAzT-aWmEsSVkM8aAbG0DcXQ3EKX_zKA6Dln-0U" alt="Image 3" class="slide">
+          <img src="https://media.licdn.com/dms/image/C4D22AQHk83Z_QA8vmQ/feedshare-shrink_2048_1536/0/1676125955893?e=1709164800&v=beta&t=gC9RjfR610A8OBwcCQiw85wrnbUqeESczY5RMaFFWWA" alt="Image 4" class="slide">
+          <img src="https://media.licdn.com/dms/image/C4D22AQEPGIa3uzTj-A/feedshare-shrink_2048_1536/0/1676125956798?e=1709164800&v=beta&t=QNfYqZmUCHICpnMjjpH8jAIXnevnPfL4NA8D851UDxA" alt="Image 5" class="slide">
+          <img src="https://media.licdn.com/dms/image/C4D22AQEfJuww2tkA1g/feedshare-shrink_2048_1536/0/1676125956515?e=1709164800&v=beta&t=NAgtkRPz_w-6xSbJSNNyzA_V8RRjmhAVas_r9ptG-NY" alt="Image 6" class="slide">
+        </div>
+      </div>
+       
+      <button onclick="prevSlide()" id="prev"><i class="fa-solid fa-chevron-left" ></i></button>
+      <button onclick="nextSlide()" id="next"><i class="fa-solid fa-chevron-right"></i></button> 
+      
+      <script src="ritvic.js"></script>
+
+
+    <div class="social">
+        <h4>Social Media links</h4>
+        <a href="https://www.instagram.com/ritvic_nitr/?hl=en"><i class="fa-brands fa-instagram" id="lin"></i></a>
+        <a href="https://www.linkedin.com/company/ritvic-nit-rourkela/?originalSubdomain=in"><i
+                class="fa-brands fa-linkedin" id="lin"></i></a>
+        <a href="https://www.facebook.com/ritvic.nitr/"><i class="fa-brands fa-facebook" id="lin"></i></a>
+        <a href="https://www.youtube.com/c/RITVICNITRourkela"><i class="fa-brands fa-youtube" id="lin"></i></a>
+    </div>
+
+</body>
+
+</html>
