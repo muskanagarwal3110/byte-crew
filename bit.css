@@ -1,0 +1,99 @@
+*{
+    margin:0%;
+}
+
+html{
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+#header{
+    background: rgb(219, 132, 102);
+    padding: .3%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    position:relative;
+    top: 0%;
+}
+
+#header>img{
+    position: relative;
+    float: inline-start;
+    height: 90px;
+    padding-right: 2%;
+}
+
+#header>h1{
+    position: relative;
+    font-size: 30px;
+    text-align: left;
+}
+
+#sac{
+    text-align: center;
+    font-family:Verdana;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 1.5%;
+}
+
+.btn{
+    margin-left: 20%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto ;
+    margin-top: 2%;
+}
+
+.btn>div{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    border: none;
+    width: 70%;
+    height: 50%;
+    margin-bottom: 15%;
+    border-radius: 10px;
+    transition: ease-in;  
+    color: white;
+    filter:opacity(75%);
+}
+
+.btn>div:hover{
+    scale: 110%;
+    filter:opacity(100%);
+    
+}
+
+.btn #tech{
+    background-image: url("https://images.unsplash.com/photo-1561144257-e32e8efc6c4f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");   
+    background-size: cover;
+}
+
+.btn #fms{
+    background-image: url("https://images.unsplash.com/photo-1440404653325-ab127d49abc1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");    
+    background-size: cover;
+}
+
+.btn #sports{
+    background-image: url("https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?q=80&w=1907&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+
+.btn #cultural{
+    background-image: url("https://images.unsplash.com/photo-1622555064177-d12cc627e87a?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+
+.text{
+    color:white;
+    text-align: center;
+    margin-top: 40px;
+    opacity: 100%;
+    text-shadow: black; 
+    filter: opacity(100%);
+}
